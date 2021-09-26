@@ -1,0 +1,150 @@
+
+
+/* The sidebar menu */
+.sidenav1 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  /* z-index: 1; Stay on top */
+  /* top: 0; Stay at the top */
+  left: 0;
+  background-color: #008000;/* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav1 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav1 a:hover {
+  color: #404040;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav1 {padding-top: 15px;}
+  .sidenav1 a {font-size: 18px;}
+}
+/* The sidebar menu */
+.sidenav2 {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  /* z-index: 1; Stay on top */
+  /* top: 0; Stay at the top */
+  right: 0;
+  background-color: maroon; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav2 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav2 a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav2 {padding-top: 15px;}
+  .sidenav2 a {font-size: 18px;}
+}
+.heading{
+  font-family: Times New Roman;
+  font-size: 80px;
+  padding-left: 16%;
+}
+.heading1{
+  font-family: Segoe UI;
+  font-size: 80px;
+  /* padding-left: 160px; */
+}
+.heading2{
+  font-family: Brush Script MT;
+  font-size: 80px;
+  padding-left: 25%;
+}
+.heading3{
+  font-family: Brush Script MT;
+  font-size: 80px;
+  padding-left: 35%;
+}
+.checkresult{
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 30%;
+  border:#404040; border-width:5px; border-style:solid;
+  padding-left: 10%;
+  /* box-sizing: border-box; */
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+.login{
+  color: white;
+  width: 30%;
+  /* height: 60%; */
+  background-color: #008000;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 20%;
+  /* border:orange; border-width:5px; border-style:solid; */
+  padding-left: 8%;
+  box-sizing: border-box;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/* .label1{
+  
+} */
+nav{
+  background-color: #404040!important;
+  /* color: white !important; */
+/*    position: fixed !important;  
+    z-index: 1 !important; Stay on top
+  /* top: 0 !important; Stay at the top  */
+  /*/
+ */
+}
+.carousel{
+  width: 50%;
+  margin-left: 20%;
+}
+.resultformat{
+  margin-left: 20% !important;
+  margin-right: 20%;
+  color: red;
+}
+#panel1 {
+  width: 80%;
+  /* display: none; */
+}
